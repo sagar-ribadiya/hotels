@@ -18,5 +18,5 @@ db.on('error',()=>{
 db.on('disconnected',()=>{
     console.log("mongodb disconnected to server");
 })
-
+//comment for hotel
 module.exports=db;
